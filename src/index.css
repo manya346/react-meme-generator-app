@@ -6,3 +6,52 @@ body {
   font-family: "Karla", sans-serif;
   margin: 0;
 }
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 29px 20px;
+}
+
+.meme-generator{
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+.proj{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+main{
+  padding: 36px;
+}
+
+.form{
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 20px;
+}
+
+.form-input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-button{
+  grid-column: 1/-1;
+  /* width: 477px;
+  height: 40px; */
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 5px;
+  border: none;
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
