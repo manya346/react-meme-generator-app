@@ -55,3 +55,7 @@ main{
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+.meme-image{
+  max-width: 100%;
+}
